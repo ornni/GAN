@@ -1,2 +1,2 @@
-# symmetrical-umbrella
+# GAN
 GAN, CGAN, DCGAN, PIX2PIX
