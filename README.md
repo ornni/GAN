@@ -1,2 +1,13 @@
 # GAN
-GAN, CGAN, DCGAN, PIX2PIX
+---
+**GAN**
+definition
+
+---
+**CGAN**
+
+---
+**DCGAN**
+
+---
+**PIX2PIX**
