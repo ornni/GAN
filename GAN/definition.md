@@ -8,7 +8,7 @@ GAN을 처음 접할 때 아래와 같은 그림을 이용해서 이해하면 �
 
 경찰은 위조지폐와 실제 지폐를 구분한다. (위조지폐: 0, 실제 지폐: 1 출력)
 
-이렇게 한번 경찰이 지폐를 구분하는 것이 하나의 epoch이 된다.
+이렇게 한번 경찰이 지폐를 구분하는 것이 하나의 epoch이 된다.  
 
 
 
@@ -16,7 +16,7 @@ GAN을 처음 접할 때 아래와 같은 그림을 이용해서 이해하면 �
 
 어느 순간 완벽한 위조지폐가 만들어지면 경찰은 해당 지폐를 잘 구분할 수 없어서 찍기 시작할 것이다.
 
-확률은 진짜 혹은 가짜 중 하나이므로 50%가 되고 학습이 끝나게 된다.
+확률은 진짜 혹은 가짜 중 하나이므로 50%가 되고 학습이 끝나게 된다.  
 
 
 
@@ -26,7 +26,7 @@ GAN을 처음 접할 때 아래와 같은 그림을 이용해서 이해하면 �
 
 위조지폐범: Generator
 
-경찰: Discriminator (위조지폐는 D(G(z))=0, 실제지폐는 D(G(z))=1 출력)
+경찰: Discriminator (위조지폐는 D(G(z))=0, 실제지폐는 D(G(z))=1 출력)  
 
 
 
@@ -46,7 +46,7 @@ Discriminator 모델이 진짜 이미지와 가짜 이미지를 가지고 진짜
 
 (sigmoid 함수를 사용)
 
-![sigmoid function](https://github.com/ornni/GAN/blob/main/image/sigmoid%20function.jpg?raw=true)
+![sigmoid function](https://github.com/ornni/GAN/blob/main/image/sigmoid%20function.jpg?raw=true)  
 
 
 
@@ -76,7 +76,7 @@ D는 경찰이다. 가짜 데이터에 0, 진짜 데이터에 1을 출력해야 
 
 x는 진짜 데이터이고 G(z)는 G가 z를 가지고 만든 가짜 데이터이다.
 
-따라서 D(z)=1이 되어야 하며, D(G(z))=1이 되도록 하는 것이 목표이다.
+따라서 D(z)=1이 되어야 하며, D(G(z))=1이 되도록 하는 것이 목표이다.  
 
 
 G의 입장
