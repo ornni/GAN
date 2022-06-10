@@ -43,7 +43,7 @@ Discriminator 모델은 어떤 input 데이터가 들어갔을 때 해당 input 
 
 D의 입장
 
-![Discriminator](./image/Discriminator.jpg)
+![Discriminator](https://github.com/ornni/GAN/blob/main/image/Discriminator.jpg?raw=true)
 
 Discriminator 모델이 진짜 이미지와 가짜 이미지를 가지고 진짜 가짜 여부를 구분하도록 학습한다.
 
@@ -51,13 +51,13 @@ Discriminator 모델이 진짜 이미지와 가짜 이미지를 가지고 진짜
 
 (sigmoid 함수를 사용)
 
-![대체 텍스트](./image/busan.jpg)
+![sigmoid function](https://github.com/ornni/GAN/blob/main/image/sigmoid%20function.jpg?raw=true)
 
 
 
 G의 입장
 
-![Generator](./image/Generator.jpg)
+![Generator](https://github.com/ornni/GAN/blob/main/image/Generator.jpg?raw=true)
 
 Generator 입장에서는 Discriminator가 진짜 이미지를 잘 맞추는지는 관심이 없다.
 
@@ -67,7 +67,7 @@ Generator 입장에서는 Discriminator가 진짜 이미지를 잘 맞추는지�
 
 **목적함수(Objective function, Loss function)**
 
-![GAN loss function](./image/GAN loss function.jpg)
+![GAN loss function](https://github.com/ornni/GAN/blob/main/image/GAN%20loss%20function.png?raw=true)
 
 G는 V(D, G)가 최소가 되려고 하고 D는 V(D, G)가 최대가 되려고 한다.
 
@@ -75,7 +75,7 @@ G는 V(D, G)가 최소가 되려고 하고 D는 V(D, G)가 최대가 되려고 �
 
 D의 입장
 
-![Discriminator loss function](./image/Discriminator loss function.jpg)
+![Discriminator loss function](https://github.com/ornni/GAN/blob/main/image/Discriminator%20loss%20fuction.jpg?raw=true)
 
 D는 경찰이다. 가짜 데이터에 0, 진짜 데이터에 1을 출력해야 한다.
 
@@ -86,7 +86,7 @@ x는 진짜 데이터이고 G(z)는 G가 z를 가지고 만든 가짜 데이터�
 
 G의 입장
 
-![Generator loss function](./image/Generator loss function.jpg)
+![Generator loss function](https://github.com/ornni/GAN/blob/main/image/Generator%20loss%20function.jpg?raw=true)
 
 G는 위조지폐범이다. 경찰과 반대로 G는 D가 가짜 데이터에 대해 1을 출력하게 해야 한다.
 
