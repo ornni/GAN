@@ -1,7 +1,7 @@
 # GAN
 ---
 **GAN**  
-# definition
+definition
 
 ---
 **CGAN**
