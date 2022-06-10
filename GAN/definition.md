@@ -5,7 +5,7 @@ title:  "GAN 개념정리"
 
 GAN을 처음 접할 때 아래와 같은 그림을 이용해서 이해하면 편하다.
 
-![GAN](./image/GAN.jpg)
+src='./image/GAN.jpg'
 
 0과 1로 구성된 노이즈가 있다.
 
