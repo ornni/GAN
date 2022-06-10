@@ -9,9 +9,7 @@ GAN을 처음 접할 때 아래와 같은 그림을 이용해서 이해하면 �
 경찰은 위조지폐와 실제 지폐를 구분한다. (위조지폐: 0, 실제 지폐: 1 출력)
 
 이렇게 한번 경찰이 지폐를 구분하는 것이 하나의 epoch이 된다.  
-
-
-
+#
 첫번째 epoch에서는 경찰이 위조지폐와 진짜 지폐를 잘 구분할지 몰라도 점차 위조지폐범은 더욱 비슷하게 생긴 위조지폐를 만들 것이고 경찰도 더 잘 구분하기 위해 노력할 것이다.
 
 어느 순간 완벽한 위조지폐가 만들어지면 경찰은 해당 지폐를 잘 구분할 수 없어서 찍기 시작할 것이다.
@@ -43,9 +41,7 @@ Discriminator 모델이 진짜 이미지와 가짜 이미지를 가지고 진짜
 (sigmoid 함수를 사용)
 
 ![sigmoid function](https://github.com/ornni/GAN/blob/main/image/sigmoid%20function.jpg?raw=true)  
-
-
-
+#
 G의 입장
 
 ![Generator](https://github.com/ornni/GAN/blob/main/image/Generator.jpg?raw=true)
@@ -73,8 +69,7 @@ D는 경찰이다. 가짜 데이터에 0, 진짜 데이터에 1을 출력해야 
 x는 진짜 데이터이고 G(z)는 G가 z를 가지고 만든 가짜 데이터이다.
 
 따라서 D(z)=1이 되어야 하며, D(G(z))=1이 되도록 하는 것이 목표이다.  
-
-
+#
 G의 입장
 
 ![Generator loss function](https://github.com/ornni/GAN/blob/main/image/Generator%20loss%20function.jpg?raw=true)
