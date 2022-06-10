@@ -1,8 +1,3 @@
----
-layout: single
-title:  "GAN 개념정리"
----
-
 GAN을 처음 접할 때 아래와 같은 그림을 이용해서 이해하면 편하다.
 
 ![GAN](https://github.com/ornni/GAN/blob/main/image/GAN.jpg?raw=true)
