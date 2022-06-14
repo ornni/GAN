@@ -1,7 +1,7 @@
 
 GAN을 처음 접할 때 아래와 같은 그림을 이용해서 이해하면 편하다.
 
-![GAN](https://github.com/ornni/GAN/blob/main/image/GAN.jpg?raw=true)
+![GAN](https://github.com/ornni/GAN/blob/main/GAN/image/GAN.jpg?raw=true)
 
 0과 1로 구성된 노이즈가 있다.
 
@@ -39,7 +39,7 @@ Discriminator 모델은 어떤 input 데이터가 들어갔을 때 해당 input 
 
 D의 입장
 
-![Discriminator](https://github.com/ornni/GAN/blob/main/image/Discriminator.jpg?raw=true)
+![Discriminator](https://github.com/ornni/GAN/blob/main/GAN/image/Discriminator.jpg?raw=true)
 
 Discriminator 모델이 진짜 이미지와 가짜 이미지를 가지고 진짜 가짜 여부를 구분하도록 학습한다.
 
@@ -47,13 +47,13 @@ Discriminator 모델이 진짜 이미지와 가짜 이미지를 가지고 진짜
 
 (sigmoid 함수를 사용)
 
-![sigmoid function](https://github.com/ornni/GAN/blob/main/image/sigmoid%20function.jpg?raw=true)
+![sigmoid function](https://github.com/ornni/GAN/blob/main/GAN/image/sigmoid%20function.jpg?raw=true)
 
 #
 
 G의 입장
 
-![Generator](https://github.com/ornni/GAN/blob/main/image/Generator.jpg?raw=true)
+![Generator](https://github.com/ornni/GAN/blob/main/GAN/image/Generator.jpg?raw=true)
 
 Generator 입장에서는 Discriminator가 진짜 이미지를 잘 맞추는지는 관심이 없다.
 
@@ -63,7 +63,7 @@ Generator 입장에서는 Discriminator가 진짜 이미지를 잘 맞추는지�
 
 **목적함수(Objective function, Loss function)**
 
-![GAN loss function](https://github.com/ornni/GAN/blob/main/image/GAN%20loss%20function.png?raw=true)
+![GAN loss function](https://github.com/ornni/GAN/blob/main/GAN/image/GAN%20loss%20function.png?raw=true)
 
 G는 V(D, G)가 최소가 되려고 하고 D는 V(D, G)가 최대가 되려고 한다.
 
@@ -71,7 +71,7 @@ G는 V(D, G)가 최소가 되려고 하고 D는 V(D, G)가 최대가 되려고 �
 
 D의 입장
 
-![Discriminator loss function](https://github.com/ornni/GAN/blob/main/image/Discriminator%20loss%20fuction.jpg?raw=true)
+![Discriminator loss function](https://github.com/ornni/GAN/blob/main/GAN/image/Discriminator%20loss%20fuction.jpg?raw=true)
 
 D는 경찰이다. 가짜 데이터에 0, 진짜 데이터에 1을 출력해야 한다.
 
@@ -83,7 +83,7 @@ x는 진짜 데이터이고 G(z)는 G가 z를 가지고 만든 가짜 데이터�
 
 G의 입장
 
-![Generator loss function](https://github.com/ornni/GAN/blob/main/image/Generator%20loss%20function.jpg?raw=true)
+![Generator loss function](https://github.com/ornni/GAN/blob/main/GAN/image/Generator%20loss%20function.jpg?raw=true)
 
 G는 위조지폐범이다. 경찰과 반대로 G는 D가 가짜 데이터에 대해 1을 출력하게 해야 한다.
 
