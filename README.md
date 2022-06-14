@@ -1,5 +1,5 @@
 # GAN
----
+
 **GAN**  
 definition
 
