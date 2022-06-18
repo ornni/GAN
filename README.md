@@ -6,6 +6,7 @@ definition
 ---
 **CGAN**<br>
 definition
+
 ---
 **DCGAN**
 
