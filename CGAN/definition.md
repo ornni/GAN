@@ -4,11 +4,11 @@ Loss Function
 
 GAN
 
-![GAN Loss Function]
+![GAN Loss Function](https://github.com/ornni/GAN/blob/main/CGAN/image/GAN%20Loss%20Function.png?raw=true)
 
 CGAN
 
-![CGAN Loss Function]
+![CGAN Loss Function](https://github.com/ornni/GAN/blob/main/CGAN/image/CGAN%20Loss%20Function.png?raw=true)
 
 기존의 GAN은 noise z를 갖고 무작위로 이미지를 생성했지만, CGAN의 경우 특정 레이블 y가 추가되면서 특정한 이미지를 고정적으로 생성<br>
 
