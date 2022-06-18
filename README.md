@@ -5,7 +5,7 @@ definition
 
 ---
 **CGAN**
-
+definition
 ---
 **DCGAN**
 
