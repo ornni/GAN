@@ -1,10 +1,10 @@
 # GAN
 
-**GAN**  
+**GAN**<br>
 definition
 
 ---
-**CGAN**
+**CGAN**<br>
 definition
 ---
 **DCGAN**
